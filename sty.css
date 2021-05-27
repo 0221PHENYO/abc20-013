@@ -1,0 +1,372 @@
+
+
+*{
+  margin:0;
+  padding:0;
+}
+header{
+  height:80px;
+  background:darkblue;
+  padding:0 50px;
+}
+
+.logo{
+  width:30%;
+  float:left;
+  color:#fff;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:60px;
+  font-size:35px;
+  font-family:sans-serif;
+
+}
+
+nav{
+width:68%;
+float:right;
+}
+
+
+nav ul{
+list-style:none;
+float:right;
+
+}
+
+nav ul li{
+display:inline-block;
+
+}
+
+nav ul li a{
+text-decoration: none;
+color:#fff;
+font-family:sans-serif;
+font-weight:bold;
+margin:0 10px;
+line-height:60px;
+text-transform:uppercase;
+}
+
+
+nav a:hover{
+  text-decoration: underline;
+
+
+  color: rgba(255, 0, 0, 0.5);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.banner{
+height:100%;
+
+}
+h1{
+color:#fff;
+}
+
+.banner img{
+width:100%;
+height:90vh;
+}
+
+.content{
+padding:5%;
+}
+
+
+
+.content p{
+font-size:18px;
+line-height:1.7;
+font-family:sans-serif:
+margin-bottom:25px;
+}
+
+
+
+
+
+h2 {
+  background-color: lightblue;
+
+}
+
+
+
+
+
+
+
+#History{
+  position: absolute;
+  top: 200px;
+  left: 40px;
+font-family:sans-serif;
+}
+#History h2{
+  border-bottom: 5px solid blue;padding-bottom: 5px;"
+  font-family:sans-serif;
+}
+
+#Population{
+  position: absolute;
+  top: 580px;
+  left: 40px;
+  font-family:sans-serif;
+}
+#Population h2{
+  border-bottom: 5px solid blue;padding-bottom: 5px;"
+  font-family:sans-serif;
+}
+#Visitors{
+  position: absolute;
+  top: 700px;
+  left: 40px;
+  font-family:sans-serif;
+}
+#Visitors h2{
+  border-bottom: 5px solid blue;padding-bottom: 5px;"
+  font-family:sans-serif;
+}
+
+
+#Historic{
+  position: absolute;
+  top: 900px;
+  left: 40px;
+  font-family:sans-serif;
+}
+#Historic h3{
+background-color: lightblue;
+border-bottom: 5px solid blue;padding-bottom: 5px;"
+font-family:sans-serif;
+}
+#Gate{
+  position: absolute;
+top: 1250px;
+left: 40px;
+
+}
+
+#Gate img{
+  width: 550px;
+}
+
+
+
+
+#image{
+
+position: absolute;
+left: 700px;
+top: 200px;
+}
+
+
+#wallsofhistory{
+  position: absolute;
+top: 200px;
+left: 700px;
+font-family:sans-serif;
+}
+
+#wallsofhistory img{
+  width: 550px;
+}
+#wallsofhistory h3{
+  background-color: lightblue;
+  border-bottom: 5px solid blue;padding-bottom: 5px;"
+  font-family:sans-serif;
+}
+
+
+#Aquarium{
+  position: absolute;
+top: 630px;
+left: 700px;
+font-family:sans-serif;
+}
+#Aquarium h3{
+  background-color: lightblue;
+  border-bottom: 5px solid blue;padding-bottom: 5px;
+  font-family:sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Goodclimate{
+  position: absolute;
+top: 800px;
+left: 700px;
+font-family:sans-serif;
+
+}
+
+#Goodclimate h3{
+  background-color: lightblue;
+  border-bottom: 5px solid blue;padding-bottom: 5px;"
+  font-family:sans-serif;
+}
+
+#Museum{
+  position: absolute;
+top: 1700px;
+left: 40px;
+font-family:sans-serif;
+}
+#Museum h3{
+background-color: lightblue;
+border-bottom: 5px solid blue;padding-bottom: 5px;"
+font-family:sans-serif;
+}
+
+
+
+#Waterfall{
+  position: absolute;
+top: 1000px;
+left: 700px;
+font-family:sans-serif;
+}
+#Waterfall h3{
+  background-color: lightblue;
+  border-bottom: 5px solid blue;padding-bottom: 5px;"
+  font-family:sans-serif;
+}
+
+
+#Beaches{
+  position: absolute;
+top: 1200px;
+left: 700px;
+font-family:sans-serif;
+}
+
+
+#Beaches h3{
+background-color: lightblue;
+border-bottom: 5px solid blue;padding-bottom: 5px;"
+font-family:sans-serif;
+}
+
+
+#Sky{
+  position: absolute;
+top: 1500px;
+left: 700px;
+
+}
+#Sky img{
+  width: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+  position: absolute;
+  top: 1900px;
+  left: 0px;
+width: 1200px;
+
+background:darkblue;
+color:#fff;
+padding:15px 50px;
+text-align:center;
+
+}
+
+
+
+
+
+#footer .social-menu ul{
+  position: relative;
+  top: 50px;
+  left: 0;
+  transform: translate(10%, 10%);
+  font-size: 40px;
+  display: flex;
+}
+
+#footer .social-menu ul li {
+  list-style: none;
+}
+#footer .social-menu ul li .fa {
+  font-size: 40px;
+  line-height: 55px;
+  transition: 10px;
+  color: rgba(255, 0, 0, 0.5);
+}
+
+#footer .social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgba(255, 0, 0, 0.5);
+  text-align: center;
+  box-shadow: 0 5px 4px blue;
+}
+
+
+#footer .social-menu ul li a :hover{
+  color: white;
+}
+
+
+
+#footer .social-menu ul li p{
+  position: relative;
+  font-size: 10px;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+
+}
+
+
+
+#footer .quick-link{
+display: flex;
+position: relative;
+top: 700px;
+}

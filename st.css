@@ -1,0 +1,1014 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+header{
+  height:80px;
+  background:darkblue;
+  padding:0 50px;
+}
+
+.logo{
+  width:30%;
+  float:left;
+  color:#fff;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:60px;
+  font-size:35px;
+  font-family:sans-serif;
+
+}
+
+nav{
+width:68%;
+float:right;
+}
+
+
+nav ul{
+list-style:none;
+float:right;
+
+}
+
+nav ul li{
+display:inline-block;
+
+}
+
+nav ul li a{
+text-decoration: none;
+color:#fff;
+font-family:sans-serif;
+font-weight:bold;
+margin:0 10px;
+line-height:60px;
+text-transform:uppercase;
+}
+
+nav a:hover{
+  text-decoration: underline;
+
+
+  color: rgba(255, 0, 0, 0.5);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+height:100%;
+
+}
+h1{
+color:#fff;
+}
+
+.banner img{
+width:100%;
+height:90vh;
+}
+
+.content{
+padding:5%;
+}
+.content p{
+font-size:18px;
+line-height:1.7;
+font-family:sans-serif:
+margin-bottom:25px;
+}
+
+
+footer{
+
+}
+
+
+
+
+
+footer .social-menu ul{
+  background:darkblue;
+  color:#fff;
+  padding:15px 50px;
+  text-align:center;
+
+
+
+
+
+
+  position: relative;
+  top: 50px;
+  left: 0;
+  transform: translate(10%, 10%);
+  font-size: 40px;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Duden{
+  position: absolute;
+  top:250px;
+left:40px;
+}
+
+
+#Duden-waterfall{
+position: absolute;
+top:300px;
+left:40px;
+
+  }
+
+  #Duden-waterfall img{
+    width:550px;
+  }
+
+
+
+
+
+
+  #Duden{
+    position: absolute;
+    top:250px;
+  left:40px;
+  }
+
+
+  #Duden-waterfall{
+  position: absolute;
+  top:300px;
+  left:40px;
+
+    }
+
+    #Duden-waterfall img{
+      width:550px;
+    }
+
+
+#StairHotel{
+  position: absolute;
+  top:220px;
+left:700px;
+}
+
+
+#Hotel{
+    position: absolute;
+    top:250px;
+  left:700px;
+  }
+
+
+    #Hotel img{
+      width:500px;
+    }
+
+
+    #Boat{
+      position: absolute;
+      top:700px;
+    left:650px;
+    }
+
+    #Boat-Ride{
+        position: absolute;
+        top:730px;
+      left:650px;
+      }
+
+
+        #Boat-Ride img{
+          width:500px;
+        }
+
+
+
+        #Private-Boat{
+          position: absolute;
+          top:740px;
+        left:40px;
+        }
+
+
+
+        #Private{
+          position: absolute;
+          top:770px;
+        left:40px;
+        }
+
+        #Private{
+            width: 650px;
+        }
+
+
+
+
+
+
+
+
+
+
+#First-boat{
+  position: absolute;
+  top:1100px;
+left:650px;
+
+}
+
+#First{
+  position: absolute;
+  top:1130px;
+left:650px;
+
+
+}
+
+
+#First img{
+  width: 200px;
+}
+
+
+
+
+
+
+#Second-boat{
+  position: absolute;
+  top:1100px;
+left:880px;
+
+}
+
+#Second{
+  position: absolute;
+  top:1130px;
+left:880px;
+
+}
+
+
+#Second img{
+  width: 200px;
+}
+
+
+
+
+
+#Third-boat{
+  position: absolute;
+  top:1100px;
+left:1100px;
+
+}
+
+#Third{
+  position: absolute;
+  top:1130px;
+left:1100px;
+
+
+}
+
+
+#Third img{
+  width: 200px;
+}
+
+
+
+#Archaeological-museum{
+
+  position: absolute;
+  top:1400px;
+left:40px;
+}
+
+#Ac-Museum{
+  position: absolute;
+  top:1430px;
+left:40px;
+}
+
+#Ac-Museum img{
+width: 400px;
+}
+
+
+
+
+#Table{
+  position: absolute;
+  top: 1400px;
+  left: 500px;
+}
+
+#Table img{
+width: 200px;
+}
+
+
+
+
+
+
+#Toy-Museum{
+
+  position: absolute;
+  top:2300px;
+left:40px;
+
+}
+
+
+#Toy{
+  position: absolute;
+  top:2330px;
+left:40px;
+
+}
+
+
+#Toy img{
+width: 250px;
+}
+
+
+
+
+
+
+#First-Toy-Museum{
+
+  position: absolute;
+  top:2300px;
+left:800px;
+
+}
+
+#First-Toy{
+  position: absolute;
+  top:2330px;
+left:800px;
+
+}
+
+#First-Toy img{
+width: 250px;
+}
+
+
+
+
+
+
+
+#Second-Toy-Museum{
+
+  position: absolute;
+  top:2300px;
+left:1070px;
+
+}
+
+
+#Second-Toy{
+  position: absolute;
+  top:2330px;
+left:1070px;
+
+}
+
+#Second-Toy img{
+width: 250px;
+}
+
+
+
+
+
+
+#Third-Toy{
+  position: absolute;
+  top:2580px;
+left:40px;
+
+}
+
+#Third-Toy img{
+width: 250px;
+}
+
+
+
+
+#Fourth-Toy{
+  position: absolute;
+  top:2330px;
+left:300px;
+
+}
+
+#Fourth-Toy img{
+width: 485px;
+}
+
+
+
+#Deep-fishing{
+
+  position: absolute;
+  top:2820px;
+left:50px;
+
+}
+
+#fishing{
+  position: absolute;
+  top:2850px;
+left:50px;
+
+}
+
+#fishing img{
+width: 330px;
+}
+
+
+
+#Fishing-Table{
+
+  position: absolute;
+  top:2820px;
+left:500px;
+
+}
+
+#Fishing-Table{
+  position: absolute;
+  top:2850px;
+left:500px;
+
+}
+
+#Fishing-Table img{
+width: 260px;
+}
+
+
+
+
+
+#Banana-boat{
+
+  position: absolute;
+  top:3620px;
+left:50px;
+
+}
+
+#Banana{
+  position: absolute;
+  top:3650px;
+left:50px;
+
+}
+
+#Banana img{
+width: 290px;
+}
+
+
+
+#First-Banana-boat{
+
+  position: absolute;
+  top:3620px;
+left:350px;
+
+}
+
+#First-Banana{
+  position: absolute;
+  top:3650px;
+left:350px;
+
+}
+
+#First-Banana img{
+width: 300px;
+}
+
+
+#Second-Banana-boat{
+
+  position: absolute;
+  top:3620px;
+left:1000px;
+
+}
+
+#Second-Banana{
+  position: absolute;
+  top:3650px;
+left:1000px;
+
+}
+
+#Second-Banana img{
+width: 300px;
+}
+
+
+
+
+#Third-Banana-boat{
+
+  position: absolute;
+  top:3620px;
+left:660px;
+
+}
+
+#Third-Banana{
+  position: absolute;
+  top:3650px;
+left:660px;
+
+}
+
+#Third-Banana img{
+width: 330px;
+}
+
+
+
+
+
+
+#Mosque-Antalya{
+
+  position: absolute;
+  top:4060px;
+left:910px;
+
+}
+
+#Mosque{
+  position: absolute;
+  top:4090px;
+left:910px;
+
+}
+
+#Mosque img{
+
+}
+
+
+
+#Mosque-Table{
+
+  position: absolute;
+  top:4090px;
+left:40px;
+}
+
+
+
+
+
+#Mosque-Table img{
+  width: 280px;
+}
+
+#Second-Mosque{
+  position: absolute;
+  top:4720px;
+left:890px;
+
+}
+#Second-Mosque img{
+  width: 420px;
+}
+
+
+
+
+
+
+
+
+
+
+#Hotel-five{
+
+  position: absolute;
+  top:5200px;
+left:50px;
+
+}
+
+#Hotell{
+  position: absolute;
+  top:5230px;
+left:50px;
+
+}
+
+#Hotell img{
+width: 290px;
+}
+
+
+
+#First-Hotel-five{
+
+  position: absolute;
+  top:5500px;
+left:350px;
+
+}
+
+#First-Hotel{
+  position: absolute;
+  top:3620px;
+left:5530px;
+
+}
+
+#First-Hotel img{
+width: 300px;
+}
+
+
+#Second-Hotel-five{
+
+  position: absolute;
+  top:3620px;
+left:5800px;
+
+}
+
+#Second-Hotel{
+  position: absolute;
+  top:3650px;
+left:6100px;
+
+}
+
+#Second-Hotel img{
+width: 300px;
+}
+
+
+
+
+#Third-Hotel-five{
+
+  position: absolute;
+  top:3620px;
+left:6150px;
+
+}
+
+#Third-Hotel{
+  position: absolute;
+  top:3650px;
+left:6180px;
+
+}
+
+#Third-Hotel img{
+width: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+#Best-fivestair-hotel{
+
+  position: absolute;
+  top:5280px;
+left:50px;
+
+}
+
+#fivestair-hotel{
+  position: absolute;
+  top:5310px;
+left:50px;
+
+}
+
+#fivestair-hotel img{
+width: 290px;
+}
+
+
+
+
+#First-fivestair-hotel{
+
+  position: absolute;
+  top:5310px;
+left:350px;
+
+}
+
+#First-stair-hotel{
+  position: absolute;
+  top:5310px;
+left:350px;
+
+}
+
+#First-stair-hotel img{
+width: 290px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Second-fivestair-hotel{
+
+  position: absolute;
+  top:5310px;
+left:650px;
+
+}
+
+#Second-stair-hotel{
+  position: absolute;
+  top:5310px;
+left:650px;
+
+}
+
+#Second-stair-hotel img{
+width: 290px;
+}
+
+
+
+#Third-fivestair-hotel
+{
+
+  position: absolute;
+  top:5310px;
+left:950px;
+
+}
+
+#Third-stair-hotel{
+  position: absolute;
+  top:5310px;
+left:950px;
+
+}
+
+#Third-stair-hotel img{
+width: 290px;
+}
+
+
+
+
+#Fourth-fivestair-hotel
+
+{
+
+  position: absolute;
+  top:5550px;
+left:950px;
+
+}
+
+#Fourth-stair-hotel{
+  position: absolute;
+  top:5550px;
+left:950px;
+
+}
+
+#Fourth-stair-hotel img{
+width: 290px;
+}
+
+
+
+
+
+#Firth-fivestair-hotel
+{
+
+  position: absolute;
+  top:5545px;
+left:650px;
+
+}
+
+#Firth-stair-hotel{
+  position: absolute;
+  top:5545px;
+left:650px;
+
+}
+
+#Firth-stair-hotel img{
+width: 290px;
+}
+
+
+#Sixth-fivestair-hotel
+{
+
+  position: absolute;
+  top:5550px;
+left:350px;
+
+}
+
+#Sixth-stair-hotel{
+  position: absolute;
+  top:5550px;
+left:350px;
+
+}
+
+#Sixth-stair-hotel img{
+width: 290px;
+}
+
+
+
+#Severth-fivestair-hotel{
+
+  position: absolute;
+  top:5550px;
+left:50px;
+
+}
+
+#Severthstair-hotel{
+  position: absolute;
+  top:5550px;
+left:50px;
+
+}
+
+#Severthstair-hotel img{
+width: 290px;
+}
+
+
+
+
+
+
+
+#Antalya-Restuarants{
+
+  position: absolute;
+  top:5880px;
+left:40px;
+}
+
+
+
+
+
+#Antalya-Restuarants img{
+  width: 280px;
+}
+
+
+
+#footer{
+  position: absolute;
+  top: 6600px;
+  left: 0px;
+width: 1200px;
+
+background:darkblue;
+color:#fff;
+padding:15px 50px;
+text-align:center;
+
+}
+
+
+
+
+
+#footer .social-menu ul{
+  position: relative;
+  top: 50px;
+  left: 0;
+  transform: translate(10%, 10%);
+  font-size: 40px;
+  display: flex;
+}
+
+#footer .social-menu ul li {
+  list-style: none;
+}
+#footer .social-menu ul li .fa {
+  font-size: 40px;
+  line-height: 55px;
+  transition: 10px;
+  color: rgba(255, 0, 0, 0.5);
+}
+
+#footer .social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgba(255, 0, 0, 0.5);
+  text-align: center;
+  box-shadow: 0 5px 4px blue;
+}
+
+
+#footer .social-menu ul li a :hover{
+  color: white;
+}
+
+
+
+#footer .social-menu ul li p{
+  position: relative;
+  font-size: 10px;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+
+}
+
+
+
+#footer .quick-link{
+display: flex;
+position: relative;
+top: 700px;
+}
